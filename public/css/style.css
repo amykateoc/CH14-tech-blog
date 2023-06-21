@@ -1,0 +1,122 @@
+/* css file for styling */
+body {
+    background-color: white;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 70px;
+}
+
+.signup-login {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 575;
+}
+
+header a {
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Mukta', sans-serif;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* .headerImg {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid lightblue;
+} */
+
+.logout-btn {
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Mukta', sans-serif;
+    border: none;
+    background: none;
+}
+
+.logout-btn:hover {
+    color: lightblue;
+}
+
+.login-label {
+    background-color: white;
+    padding: 8px;
+    border-radius: 20%;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+}
+
+label {
+    padding: 8px;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+}
+
+.signup-form {
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form {
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.receiver-name {
+    font-family: 'Lora', serif;
+    font-size: 45px;
+}
+
+.card-header {
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+
+.list-item {
+    font-size: 25px;
+}
+
+.btn {
+    background-color: lightblue;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.save-btn {
+    margin-top: 10px;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 50px;
+    }
+}
